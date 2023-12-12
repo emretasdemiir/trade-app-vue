@@ -4,6 +4,9 @@ import { useCounterStore } from '../stores/counter'
 const store = useCounterStore()
 
 store.fetchProducts()
+
+console.log(store.cart)
+debugger
 </script>
 
 <template>
